@@ -37,6 +37,6 @@ Outputs:
     Export:
       Name: UppercaseFunction
       
-# curl -H "Content-Type: application/json" -X POST -d '"foobar"' https://${ServerlessHttpApi}.execute-api.${AWS::Region}.amazonaws.com/uppercase
+# curl -H "Content-Type: application/json" -X POST -d '"foobar"' https://jvd5wf478j.execute-api.us-east-2.amazonaws.com/uppercase
 # you should receive the response "FOOBAR"
 

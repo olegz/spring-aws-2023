@@ -5,14 +5,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>io.spring.sample</groupId>
-	<artifactId>scf-aws</artifactId>
+	<artifactId>scf-aws-day1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>function-sample-aws</name>
+	<name>scf-aws-day1</name>
 	<description>Spring Cloud Function Sample for AWS Lambda</description>
 
 	<parent>
+		<java.version>17</java.version>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.8</version>
@@ -22,9 +23,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<wrapper.version>1.0.29.RELEASE</wrapper.version>
+		<wrapper.version>1.0.31.RELEASE</wrapper.version>
 		<aws-lambda-events.version>3.9.0</aws-lambda-events.version>
-		<java.version>17</java.version>
+		<spring-cloud-function.version>4.0.4</spring-cloud-function.version>
 	</properties>
 
 	<dependencies>
